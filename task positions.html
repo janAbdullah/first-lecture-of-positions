@@ -1,0 +1,30 @@
+<html><head><title>task position</title>
+<style>
+.parent{width:700px;height:500px;background:red;position:relative;margin:auto;}
+.circle{width:30%;height:25%;background:blue;clip-path:circle();position:absolute;}
+.circle2{right:0}
+.circle3{right:0;bottom:0}
+.circle4{left:0;bottom:0}
+.rectangle{height:25%;width:70%;background:blue;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}
+.rect-circle1{width:20%;height:80%;background:yellow;clip-path:circle();position:absolute;}
+.rect-circle2{width:20%;height:80%;background:yellow;clip-path:circle();position:absolute;right:0}
+
+</style>
+</head>
+
+<body>
+<div class="parent">
+<div class="circle circle1"></div>
+<div class="circle circle2"></div>
+<div class="circle circle3"></div>
+<div class="circle circle4"></div>
+<div class="rectangle">
+<div class="rect-circle1"></div>
+<div class="rect-circle2"></div>
+<div class="rect-rectangle"></div>
+
+</div>
+</div>
+
+</body>
+</html>
